@@ -1,4 +1,4 @@
-### SSL
+### HTTPS  
 
 > $ dotnet tool install -global win-acme  
 >> run $ wacs  
