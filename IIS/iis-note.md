@@ -28,3 +28,8 @@
 > - {R:0} : 전체 입력 문자열을 나타냄   
 > - {R:1} : 첫번째 그룹입니다  
 > - 정규식 (.*) 에서 {R:0}와 {R:1}은 같은 값을 표시함  
+
+>> Example Capture
+<img src="ReWrite_1.PNG"/>  
+
+<img src="ReWrite_2.PNG" />  
