@@ -7,9 +7,8 @@
 
 ### URL ReWrite  
 > 설정  
-1. 정규식 (.*) : 프로토콜, 호스트명, 포트를 제외한 모든 형식의 URL
-	e.g. https://www.vivabm.com:8080/product/price.html
-	      에서 패턴매치 되는 부분은 product/price.html 부분
+1. 정규식 (.*) : 프로토콜, 호스트명, 포트를 제외한 모든 형식의 URL  
+(e.g. **Protocol://Domain:Port/product/price.html** 에서 패턴매치 되는 부분은 product/price.html 부분)
 
 2. {HTTPS}, 패턴과 일치, ^OFF$  
 > - IIS 서버 변수 {HTTPS} 
