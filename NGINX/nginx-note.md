@@ -54,15 +54,14 @@
 ```
 
 ## 로드밸런싱
->
-> 기본 알고리즘 : `라운드로빈`  
 
->> 가중치  
->>> least_conn : 최소연결, 최소 활성 연결 수로 서버 가중치 다시 계산  
->>> ip_hash : 클라이언트 IP 주소에서 결정하며 동일한 서버로 전달
->>> weight : 서버 가중치 -> `weight=5`  
->>> slow_start : 느린시작 -> `slow_start=30s`  
->>> max_conns : 연결 수 제한 -> `max_conn=3`
++ 기본 알고리즘 : `라운드로빈`  
++ 가중치
+  + least_conn : 최소연결, 최소 활성 연결 수로 서버 가중치 다시 계산  
+  + ip_hash : 클라이언트 IP 주소에서 결정하며 동일한 서버로 전달
+  + weight : 서버 가중치 -> `weight=5`  
+  + slow_start : 느린시작 -> `slow_start=30s`  
+  + max_conns : 연결 수 제한 -> `max_conn=3`
 
 ```nginx
 
