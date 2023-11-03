@@ -1,5 +1,18 @@
 # nginx
 
+## Install (MacOS)
+
+```bash
+    brew update
+    brew install nginx
+    # Docroot is
+    # /opt/homebrew/var/www
+    brew services start nginx
+
+    # turn off daemon
+    /opt/homebrew/opt/nginx/bin/nginx -g daemon\ off\
+```
+
 ## 마스터와 워커프로세스 로 구성
 
 > **client** -_(요청)_-> **master** -_(전달)_-> **worker** -> _(처리)_
